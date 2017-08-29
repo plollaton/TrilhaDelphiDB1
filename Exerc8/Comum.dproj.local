@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/21 13:48:38.000.581,=rtl.dcp</Transaction>
+    <Transaction>2017/05/21 13:49:14.000.908,D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\Comum.dproj=C:\Users\pio\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/05/21 13:50:23.000.017,=D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\Unit1.pas</Transaction>
+    <Transaction>2017/05/21 13:50:36.000.510,D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\Comum.pas=D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

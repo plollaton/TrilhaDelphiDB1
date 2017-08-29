@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AE3D8DEE-7E52-4AB0-A209-99EF727FF11D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Comum.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CalculaDadosFiguras.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DllCalculo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Comum">
+        <MSBuild Projects="Comum.dproj"/>
+    </Target>
+    <Target Name="Comum:Clean">
+        <MSBuild Projects="Comum.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Comum:Make">
+        <MSBuild Projects="Comum.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CalculaDadosFiguras">
+        <MSBuild Projects="CalculaDadosFiguras.dproj"/>
+    </Target>
+    <Target Name="CalculaDadosFiguras:Clean">
+        <MSBuild Projects="CalculaDadosFiguras.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculaDadosFiguras:Make">
+        <MSBuild Projects="CalculaDadosFiguras.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DllCalculo">
+        <MSBuild Projects="DllCalculo.dproj"/>
+    </Target>
+    <Target Name="DllCalculo:Clean">
+        <MSBuild Projects="DllCalculo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DllCalculo:Make">
+        <MSBuild Projects="DllCalculo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Comum;CalculaDadosFiguras;DllCalculo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Comum:Clean;CalculaDadosFiguras:Clean;DllCalculo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Comum:Make;CalculaDadosFiguras:Make;DllCalculo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

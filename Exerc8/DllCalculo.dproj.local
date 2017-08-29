@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/07 17:52:38.000.453,=C:\Users\pio\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/05/07 17:53:29.000.759,C:\Users\pio\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\principal.pas</Transaction>
+    <Transaction>2017/05/07 17:53:29.000.759,C:\Users\pio\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\principal.dfm</Transaction>
+    <Transaction>2017/05/07 17:53:40.000.061,C:\Users\pio\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Estudos\TrilhaDelphiDB1\Exercicio8-DLL\DllCalculo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
